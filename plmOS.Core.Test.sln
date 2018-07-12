@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plmOS.Core.Test", "plmOS.Core.Test\plmOS.Core.Test.csproj", "{337B37A2-330E-43C7-A975-A4DCD19BFDA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plmOS.Core", "plmOS.Core\plmOS.Core.csproj", "{A2526CD8-A7BD-451A-BF24-9A8A443DE569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{337B37A2-330E-43C7-A975-A4DCD19BFDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337B37A2-330E-43C7-A975-A4DCD19BFDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337B37A2-330E-43C7-A975-A4DCD19BFDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337B37A2-330E-43C7-A975-A4DCD19BFDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2526CD8-A7BD-451A-BF24-9A8A443DE569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2526CD8-A7BD-451A-BF24-9A8A443DE569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2526CD8-A7BD-451A-BF24-9A8A443DE569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2526CD8-A7BD-451A-BF24-9A8A443DE569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {453CA5F7-BA70-4283-B01B-698374525A4E}
+	EndGlobalSection
+EndGlobal

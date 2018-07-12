@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plmOS.Core", "plmOS.Core\plmOS.Core.csproj", "{34F3AF0F-F70B-4EF3-BA78-47717F2201BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34F3AF0F-F70B-4EF3-BA78-47717F2201BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F3AF0F-F70B-4EF3-BA78-47717F2201BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F3AF0F-F70B-4EF3-BA78-47717F2201BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F3AF0F-F70B-4EF3-BA78-47717F2201BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B399EA30-8E13-4343-8928-79DD8237EB3D}
+	EndGlobalSection
+EndGlobal

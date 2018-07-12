@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Richard Mason</Authors>
+    <Company>Processwall Limited</Company>
+    <Copyright>Processwall Limited</Copyright>
+    <PackageLicenseUrl>https://github.com/plmOS/Core/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/plmOS/Core.git</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+  </PropertyGroup>
+
+</Project>

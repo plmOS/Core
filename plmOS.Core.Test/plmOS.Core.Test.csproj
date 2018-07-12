@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <Authors>Richard Mason</Authors>
+
+    <Company>Processwall Limited</Company>
+
+    <Copyright>Processwall Limited</Copyright>
+
+    <PackageLicenseUrl>https://github.com/plmOS/Core/blob/master/LICENSE</PackageLicenseUrl>
+
+    <RepositoryUrl>https://github.com/plmOS/Core.git</RepositoryUrl>
+
+    <RepositoryType>GitHub</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Schema.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Schema.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\plmOS.Core\plmOS.Core.csproj" />
+  </ItemGroup>
+
+</Project>
